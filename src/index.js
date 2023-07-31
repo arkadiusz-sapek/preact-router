@@ -56,6 +56,10 @@ function getCurrentUrl() {
 }
 
 function route(url, replace = false) {
+	console.log('***************')
+	console.log('odpalam')
+	console.log('***************')
+
 	if (typeof url !== 'string' && url.url) {
 		replace = url.replace;
 		url = url.url;
@@ -146,6 +150,10 @@ function initEventListeners() {
  * @this {import('preact').Component}
  */
 function Router(props) {
+	console.log("****************")
+	console.log("Router")
+	console.log("****************")
+
 	if (props.history) {
 		customHistory = props.history;
 	}
