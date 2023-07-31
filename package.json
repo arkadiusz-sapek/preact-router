@@ -1,5 +1,5 @@
 {
-	"name": "preact-router",
+	"name": "preact-router-fix",
 	"amdName": "preactRouter",
 	"version": "4.1.2",
 	"description": "Connect your components up to that address bar.",
